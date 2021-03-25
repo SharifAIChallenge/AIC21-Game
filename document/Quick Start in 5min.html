@@ -1,0 +1,32 @@
+<h1 id="-">شروع بازی در ۵ دقیقه</h1>
+<p>در این مستند، قصد داریم تا نحوه‌ی اجرای بازی AIC2021 را در تنها ۵ دقیقه آموزش دهیم. علاوه بر آن، راهنمایی‌هایی برای ادامه کد زدن روی کلاینت‌ها برای بعد از این شروع سریع نیز گفته می‌شود.</p>
+<h2 id="1-">1. دانلود فولدر بازی</h2>
+<p>ابتدا باید فولدر بازی را از <a href="https://github.com/SharifAIChallenge/AIC21-Game">مخزن فولدر بازی رویداد</a> دانلود نمایید. سپس، آن را unzip کنید.
+<img src="https://github.com/SharifAIChallenge/AIC21-Doc/blob/master/images/AIC21-Game.png?raw=True" alt="AIC21-Game"></p>
+<h2 id="2-">2. دانلود کلاینت مورد نظر</h2>
+<p>از بین ۳ زبان کلاینت موجود در مسابقه، یک زبان را انتخاب کرده و آن را از مخزن مربوطه دانلود نمایید. سپس آن را unzip کنید.</p>
+<ul>
+<li><a href="https://github.com/SharifAIChallenge/AIC21-Client-Cpp">کلاینت Cpp</a></li>
+<li><a href="https://github.com/SharifAIChallenge/AIC21-Client-Java">کلاینت Java</a></li>
+<li><a href="https://github.com/SharifAIChallenge/AIC21-Client-Python">کلاینت Python</a></li>
+</ul>
+<h2 id="3-">3. اجرای بازی</h2>
+<p>در ویندوز، cmd و در سیستم عامل‌های دیگر، terminal را باز کنید. ابتدا با اجرای کد زیر مطمئن شوید که java را به صورت نصب دارید.</p>
+<pre><code class="lang-bash">  java <span class="hljs-comment">--version</span>
+</code></pre>
+<p>درصورتی که در جواب، ورژن جاوا نوشته شده باشد، به این معناست که شما جاوا را در دستگاه خود دارید. درغیر اینصورت و در صورت دادن ارور، بایستی با استفاده از <a href="https://java.com/en/download/help/download_options.html">این لینک</a> جاوا را نصب کنید.
+پس از نصب می‌توانید با اجرای کد زیر، بازی را اجرا کنید.</p>
+<pre><code class="lang-bash">  java -jar /path/<span class="hljs-keyword">to</span>/<span class="hljs-built_in">server</span>.jar --first-team=/path/<span class="hljs-keyword">to</span>/first-client --<span class="hljs-built_in">second</span>-team=/path/<span class="hljs-keyword">to</span>/second_client
+</code></pre>
+<ul>
+<li><strong>توجه:</strong> به جای آدرس‌های کلاینت اول و دوم، می‌توانید آدرس فایل jar یا binary که از کلاینت مورد نظر خود ساخته‌اید(نحوه ساختن فایل باینری و jar در داک سرور کلاینت موجود است.) را بدهید. 
+پس از اجرای کامند بالا، مقداری طول می‌کشد تا بازی اجرا شود. می‌توانید لاگ بازی را نیز در همان ترمینال مشاهده کنید. بعد از اتمام اجرای بازی، فایلی به اسم log.json به عنوان خروجی در کنار فایل jar قرار می‌گیرد.</li>
+</ul>
+<h2 id="4-">4. دادن لاگ بازی به گرافیک</h2>
+<p>با کلیک کردن بر روی فایل graphic.exe برنامه گرافیک بازی را باز کنید و با کلیک روی دکمه‌ی Browse GameLog، آدرس فایل log.json بدست آمده در مرحله قبل را به آن بدهید.
+پس از آن می‌توانید بازی را به صورت گرافیکی مشاهده کنید.
+توجه کنید که روی سیستم‌عامل‌های unix based، با اجرای دستور <code>chmod +x /path/to/graphic/file</code> آن را قابل اجرا کنید.</p>
+<p><img src="https://github.com/SharifAIChallenge/AIC21-Doc/blob/master/images/import.png?raw=True" alt="AIC21-Game"></p>
+<h2 id="5-">5. تامام تامام</h2>
+<p>شما توانستید بازی را با کلاینت پیش‌فرض اجرا کنید. حال می‌توانید با تکمیل کد در فایل AI در کلاینت مورد نظر خود، کد دلخواه خود را برای هریک از نیرو‌ها بزنید و به همان شکل آن را اجرا کنید.
+هم‌چنین بعد از باز شدن امکان ارسال کد بر رو سایت می‌توانید کل فولدر کلاینت را زیپ کرده و بر روی سایت بفرستید تا رتبه خود را در اسکوربورد تغییر دهید.</p>

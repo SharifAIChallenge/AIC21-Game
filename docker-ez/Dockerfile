@@ -22,5 +22,4 @@ RUN curl -s https://api.github.com/repos/sharifaichallenge/aic21-server/releases
 COPY server /usr/bin/server
 RUN chmod +x /usr/bin/server
 WORKDIR /home/code
-#CMD ["java -jar server.jar"]
 

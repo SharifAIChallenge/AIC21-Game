@@ -77,7 +77,7 @@
 {"row": 3, "col": 3, "cell_type": 2, "rec1": 0, "rec2": 0},
 {"row": 3, "col": 4, "cell_type": 2, "rec1": 0, "rec2": 0},
 {"row": 3, "col": 5, "cell_type": 2, "rec1": 0, "rec2": 0},
-{"row": 3, "col": 6, "cell_type": 1, "rec1": 0, "rec2": 0},
+{"row": 3, "col": 6, "cell_type": 0, "rec1": 0, "rec2": 0},
 {"row": 3, "col": 7, "cell_type": 2, "rec1": 0, "rec2": 0},
 {"row": 3, "col": 8, "cell_type": 2, "rec1": 0, "rec2": 0},
 {"row": 3, "col": 9, "cell_type": 2, "rec1": 0, "rec2": 0},
@@ -300,6 +300,6 @@
 {"row": 12, "col": 19, "cell_type": 2, "rec1": 0, "rec2": 0},
 {"row": 12, "col": 20, "cell_type": 2, "rec1": 0, "rec2": 0},
 {"row": 12, "col": 21, "cell_type": 2, "rec1": 0, "rec2": 0},
-{"row": 12, "col": 22, "cell_type": 2, "rec1": 0, "rec2": 0},
+{"row": 12, "col": 22, "cell_type": 2, "rec1": 0, "rec2": 0}
 ]
 }

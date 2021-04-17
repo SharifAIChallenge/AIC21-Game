@@ -15,7 +15,7 @@ else:
     server = sys.argv[1]
 
 if len(sys.argv) == 1:
-    server = sg.popup_get_file("Choose server jar file")
+    server = sg.popup_get_file("Choose server jar file", file_types=(("Client", "*"),))
 else:
     server = sys.argv[1]
 
@@ -24,7 +24,7 @@ if not server:
     raise SystemExit("Cancelling: no server jar supplied")
 
 if len(sys.argv) == 1:
-    first_team = sg.popup_get_file("Choose first team client file")
+    first_team = sg.popup_get_file("Choose first team client file", file_types=(("Client", "*"),))
 else:
     first_team = sys.argv[1]
 
@@ -33,7 +33,7 @@ if not first_team:
     raise SystemExit("Cancelling: no first team supplied")
 
 if len(sys.argv) == 1:
-    second_team = sg.popup_get_file("Choose second team client file")
+    second_team = sg.popup_get_file("Choose second team client file", file_types=(("Client", "*"),))
 else:
     second_team = sys.argv[1]
 
@@ -42,7 +42,7 @@ if not second_team:
     raise SystemExit("Cancelling: no second team supplied")
 
 if len(sys.argv) == 1:
-    map_file = sg.popup_get_file("Choose map.json file")
+    map_file = sg.popup_get_file("Choose map.json file", file_types=(("Client", "*"),))
 else:
     map_file = sys.argv[1]
 

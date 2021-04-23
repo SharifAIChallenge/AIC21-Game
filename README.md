@@ -1,5 +1,5 @@
 # AIC21-Game
-This repo has all needed stuffs for running AIC21 game (except a client) including:
+This repo has all needed stuff for running AIC21 game (except a client) including:
 * **documents:** All documnets of game including client, graphic, game and 5min to quick start docs.
 * **maps:** Map needed for funning a game.
 * **server:** Server of AIC21 game that outputs a log.json file.
